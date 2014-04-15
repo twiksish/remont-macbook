@@ -1,0 +1,42 @@
+.jcarousel {
+    position: relative;
+    padding: 0 44px;
+}
+
+    .jcarousel__viewport {
+        position: relative;
+        overflow: hidden;
+    }
+
+        .jcarousel__viewport__list {
+            width: 10000px;
+            position: relative;
+        }
+
+            .jcarousel__viewport__list__item {
+                /* Required only for block elements like <li>'s */
+                display: inline-block;
+                vertical-align: top;
+                width: 260px;
+                margin: 0 26px 0 0;
+            }
+
+    .jcarousel__prev {
+        display: block;
+        width: 28px;
+        height: 138px;
+        background: url(../images/jcarousel-prev.png);
+        position: absolute;
+        left: 0;
+        top: 21px;
+    }
+
+    .jcarousel__next {
+        display: block;
+        width: 28px;
+        height: 138px;
+        background: url(../images/jcarousel-next.png);
+        position: absolute;
+        right: 0;
+        top: 21px;
+    }

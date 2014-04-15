@@ -1,0 +1,65 @@
+.comment {
+    text-align: center;
+}
+    .comment__photo {
+        position: relative;
+        width: 164px;
+        height: 190px;
+        margin: 0 auto;
+        color: #d7dfe2; /*triangles color*/
+    }
+        .comment__photo__file {
+            width: 100%;
+            height: 100%;
+        }
+
+        .comment__photo__left-top-triangle {
+            position: absolute;
+            left: 0;
+            top: 0;
+            border-top: 48px solid;
+            border-right: 82px solid transparent;
+        }
+
+        .comment__photo__right-top-triangle {
+            position: absolute;
+            right: 0;
+            top: 0;
+            border-top: 48px solid;
+            border-left: 82px solid transparent;
+        }
+
+        .comment__photo__left-bottom-triangle {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            border-bottom: 48px solid;
+            border-right: 82px solid transparent;
+        }
+
+        .comment__photo__right-bottom-triangle {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            border-bottom: 48px solid;
+            border-left: 82px solid transparent;
+        }
+
+    .comment__name {
+        margin: 13px 0 0;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .comment__separator {
+        margin: 9px 0 0;
+        height: 0;
+        border-top: 1px solid #ababab;
+        border-bottom: 1px solid #d7d7d7;
+    }
+
+    .comment__content {
+        margin: 10px 0 0;
+        font-size: 15px;
+        line-height: 18px;
+    }

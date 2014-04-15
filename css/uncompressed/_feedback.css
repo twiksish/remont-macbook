@@ -1,0 +1,14 @@
+.feedback {
+    padding: 38px 0 62px;
+}
+    .feedback__title {
+
+    }
+
+    .feedback__separator {
+        margin: 19px 0 0;
+    }
+
+    .feedback__carousel {
+        margin: 20px 0 0;
+    }

@@ -1,0 +1,32 @@
+.request {
+    padding: 26px 0 35px;
+}
+
+    .request__title {
+        font-size: 26px;
+        line-height: 30px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 1px 1px 0 #355557;
+    }
+
+    .request__form {
+        width: 354px;
+        margin: 31px auto 0;
+    }
+        .request__form__row {
+            margin: 6px 0 0;
+        }
+            .request__form__row__inline {
+                display: inline-block;
+                vertical-align: top;
+            }
+
+        .request__form__row_submit {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .request__form__row:first-child {
+            margin-top: 0;
+        }

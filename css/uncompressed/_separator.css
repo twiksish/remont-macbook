@@ -1,0 +1,35 @@
+.separator {
+    height: 23px;
+    position: relative;
+}
+    .separator__left {
+        width: 432px;
+        height: 0;
+        border-top: 1px solid #ababab;
+        border-bottom: 1px solid #d7d7d7;
+        position: absolute;
+        left: 0;
+        top: 11px;
+    }
+
+    .separator__right {
+        width: 432px;
+        height: 0;
+        border-top: 1px solid #ababab;
+        border-bottom: 1px solid #d7d7d7;
+        position: absolute;
+        right: 0;
+        top: 11px;
+    }
+
+    .separator__icon {
+        display: block;
+        width: 36px;
+        height: 32px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: absolute;
+        left: 50%;
+        top: -5px;
+        margin: 0 0 0 -14px;
+    }

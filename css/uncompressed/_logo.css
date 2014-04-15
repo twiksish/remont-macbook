@@ -1,0 +1,17 @@
+.logo {
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px 1px #ebe9ec;
+}
+    .logo__title {
+        font-size: 44px;
+        line-height: 44px;
+        color: #000;
+    }
+    
+    .logo__slogan {
+        margin: 2px 0 0;
+        font-size: 15px;
+        line-height: 20px;
+        color: #b5011c;
+    }

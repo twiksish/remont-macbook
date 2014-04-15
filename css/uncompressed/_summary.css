@@ -1,0 +1,107 @@
+.summary {
+    height: 700px;
+    position: relative;
+}
+    .summary__logo {
+        position: absolute;
+        left: -7px;
+        top: 136px;
+    }
+
+    .summary__lure {
+        position: absolute;
+        left: 0;
+        top: 288px;
+    }
+
+        .summary__lure__title {
+            font-size: 26px;
+            color: #fff;
+        }
+
+        .summary__lure__title__row {
+            margin: 3px 0 0;
+        }
+            .summary__lure__title__row__inline {
+                display: inline-block;
+                vertical-align: top;
+                padding: 4px 19px 5px 15px;
+                background: #e43022;
+                position: relative;
+            }
+
+            .summary__lure__title__row:last-child .summary__lure__title__row__inline {
+                padding-top: 0;
+                padding-bottom: 3px;
+            }
+
+            /*triangle*/
+            .summary__lure__title__row:last-child .summary__lure__title__row__inline:after {
+                content: '';
+                display: block;
+                position: absolute;
+                right: 0;
+                top: 100%;
+                border-top: 14px solid #e43022;
+                border-right: 95px solid transparent;
+                border-left: 95px solid transparent;
+            }
+
+        .summary__lure__title__row:first-child {
+            margin-top: 0;
+        }
+
+        .summary__lure__text {
+            margin: 28px 0 0;
+            font-size: 19px;
+            line-height: 30px;
+            text-shadow: 1px 1px 1px #ebe9ec;
+            position: relative;
+        }
+            .summary__lure__text__large {
+                font-size: 30px;
+                line-height: 30px;
+            }
+
+            .summary__lure__text__arrow {
+                position: absolute;
+                left: 100%;
+                top: 100%;
+                margin: -10px 0 0 -32px;
+                display: block;
+                width: 45px;
+                height: 59px;
+                background: url(../images/phone-arrow.png) no-repeat center center;
+            }
+
+        .summary__lure__phone {
+            margin: 21px 0 0;
+            font-size: 50px;
+            line-height: 50px;
+            text-shadow: 1px 1px 1px #ebe9ec;
+            text-align: center;
+        }
+
+    .summary__request {
+        position: absolute;
+        right: -19px;
+        top: 164px;
+    }
+
+    .summary__picture {
+        position: absolute;
+        right: -9px;
+        top: 236px;
+        width: 415px;
+        height: 425px;
+        line-height: 425px;
+        text-align: center;
+    }
+
+        .summary__picture__file {
+            line-height: 0;
+            vertical-align: middle;
+            max-width: 100%;
+            max-height: 100%;
+            position: relative;
+        }
