@@ -29,3 +29,8 @@
     font-size: 24px;
     text-transform: none;
 }
+
+.button:active {
+    position: relative;
+    top: 1px;
+}
